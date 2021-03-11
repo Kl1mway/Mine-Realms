@@ -44,8 +44,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Common styles */
+
+.title {
+  color: white;
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.text {
+  color: #B7B6B6;
+  font-size: 20px;
+}
+
+/* Main Section */
+
 .main-section {
-  background: url(/img/background.png) no-repeat;
+  background: url(./img/background.png) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -110,17 +126,10 @@ body {
 }
 
 .info-section-title {
-  color: white;
-  font-size: 50px;
-  text-decoration: underline;
-  font-weight: bold;
   padding-bottom: 50px;
 }
 
-.info-section-content p{
-  color: #B7B6B6;
-  font-size: 20px;
-}
+.info-section-content {}
 
 /* Social Section */
 
@@ -158,4 +167,12 @@ body {
 
 .social-section-link img {
   width: 140px;
+}
+
+.social-section-title {
+  padding-bottom: 50px;
+}
+
+.social-section-content {
+  padding-bottom: 20px;
 }
