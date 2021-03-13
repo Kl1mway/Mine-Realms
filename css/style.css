@@ -61,7 +61,7 @@ body {
 /* Main Section */
 
 .main-section {
-  background: url(./img/background.png) no-repeat;
+  background: url(/img/background.png) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -103,6 +103,7 @@ body {
 .info-section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .info-section-photo {
@@ -112,7 +113,8 @@ body {
 }
 
 .info-section-image {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .info-section-content {
@@ -136,6 +138,7 @@ body {
 .social-section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .social-section-info {
@@ -154,14 +157,14 @@ body {
 }
 
 .social-section-image {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .social-section-link {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  align-items: baseline;
   align-items: center;
 }
 
@@ -176,3 +179,82 @@ body {
 .social-section-content {
   padding-bottom: 20px;
 }
+
+/* Features Section */
+
+.features-section {
+  background: url(/img/background_dragon.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.features-section-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.features-section-content img {
+  width: 100%;
+  max-width: 140px;
+  margin-bottom: 20px;
+}
+
+.features-section-title {
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+
+/* Title */
+
+.features-section-title h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Atmosphere */
+
+.features-section-atmosphere {
+  width: 100%;
+  max-width: 500px;
+}
+
+.features-section-atmosphere-image {}
+
+.features-section-content h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.features-section-content p {
+  color: white;
+  font-size: 20px;
+}
+
+/* Online */
+
+.features-section-online {
+  width: 100%;
+  max-width: 500px;
+}
+
+.features-section-online-image {}
+
+/* Team */
+
+.features-section-team {
+  width: 100%;
+  max-width: 500px;
+}
+
+.features-section-team-image {}
+
+
+
