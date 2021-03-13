@@ -49,8 +49,8 @@ body {
 .title {
   color: white;
   font-size: 50px;
-  text-decoration: underline;
   font-weight: bold;
+  border-bottom: 2px solid white;
 }
 
 .text {
@@ -128,7 +128,7 @@ body {
 }
 
 .info-section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .info-section-content {}
@@ -173,7 +173,7 @@ body {
 }
 
 .social-section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .social-section-content {
@@ -213,7 +213,7 @@ body {
   color: white;
   font-size: 60px;
   font-weight: bold;
-  text-decoration: underline;
+  border-bottom: 4px solid white;
 }
 
 /* Atmosphere */
